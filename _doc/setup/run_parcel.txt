@@ -1,0 +1,5 @@
+-  use the following command to start up the parcel (client)
+   - parcel index.html (in the terminal)
+- parcel will check the script tag in the index.html and
+  initialize TS support accordingly
+  -  <script src="./src/index.ts"> </script>

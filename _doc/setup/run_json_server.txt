@@ -1,0 +1,5 @@
+- use the following command to start up the json server
+  - json-server -w db.json (in the terminal)
+- make sure you define an object with the "users" property
+  that is an array in the db.json
+  - put the db.json in the project folder

@@ -1,0 +1,22 @@
+composition vs inheritance
+
+- composition
+  - delegate the work
+    - Model delegates the work of events handling,
+      synchronization, and holding data to child 
+      components. #CI01
+    - expose the functionality of the child 
+      components through getter to the outside
+      world. #CI02  
+    - define the interface that child
+      components need to implement so 
+      later you can swap out them easily #CI03
+
+- inheritance
+  - you don't want to repeat the work of defining
+    the getters to expose the functionality of
+    the child components #CI04
+  - define static methods that will wire up
+    the child components and return a new
+    instance of a specific model class #CI05
+    

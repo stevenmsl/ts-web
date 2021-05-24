@@ -1,0 +1,4 @@
+- client
+  - npm run start:parcel
+- server
+  - npm run start:db

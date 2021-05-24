@@ -1,0 +1,10 @@
+- define a generic method on a class that
+  retrieves a given property value and types
+  it properly #TS01
+  - const user = { name:"Arlo", age:2 }
+  - the method should return a string type
+    value when you are retrieving name
+    and a number type value retrieving age 
+
+- specify a generic constraint #TS02
+  -  View<T extends Model<K>, K>   
